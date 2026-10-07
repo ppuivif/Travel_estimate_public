@@ -1,0 +1,113 @@
+# ============================================================
+# OS
+# ============================================================
+
+.DS_Store
+Thumbs.db
+
+
+# ============================================================
+# IDE / éditeurs
+# ============================================================
+
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+
+# ============================================================
+# Java / Maven / Spring Boot
+# ============================================================
+
+backend/target/
+*.class
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+
+# ============================================================
+# Node / Angular
+# ============================================================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Angular cache
+frontend/.cache/
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ============================================================
+# Environnement local / secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Fichiers de configuration locaux contenant potentiellement
+# des mots de passe, tokens ou secrets
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Variante si Spring profile dev/local
+application-dev.properties
+application-dev.yml
+application-dev.yaml
+
+
+# ============================================================
+# Docker / données locales
+# ============================================================
+
+# Volumes ou données persistantes créés localement
+data/
+mariadb-data/
+
+# Fichiers Docker locaux éventuels
+docker-compose.override.yml
+
+
+# ============================================================
+# Certificats / clés
+# ============================================================
+
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+
+# ============================================================
+# Fichiers divers
+# ============================================================
+
+*.swp
+*.swo
+*~
