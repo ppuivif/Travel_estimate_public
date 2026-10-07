@@ -35,7 +35,7 @@ L'évolution du produit déclenche un nouveau cycle de conception : analyse du b
 
 Pour tester l'application en local :
 - démarrer MariaDB avec `docker compose up -d`,
-- démarrer l’API avec `cd backend && mvn spring-boot:run`,
+- démarrer l’API avec `     `,
 - dans un autre terminal, démarrer Angular avec `cd frontend && npm start`.<br>
 L’interface est alors disponible sur `http://localhost:4200`.
 <br>
