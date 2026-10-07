@@ -2,6 +2,29 @@
 
 Application de création et de gestion de devis de voyage.
 
+## Objectifs du projet
+
+Au-delà de la création d'une application fonctionnelle, l'objectif principal de ce projet est d'élaborer et de tester une chaîne de conception à partir d'un besoin exprimé par un utilisateur.<br>
+
+## Démarche de conception
+
+Cette chaîne de conception comprend plusieurs étapes :
+1. Analyse et conception fonctionnelle
+   - Analyse du besoin
+   - Définition des exigences
+   - Analyse fonctionnelle
+   - Description des spécifications
+
+2. Conception technique
+   - Définition de l'architecture
+   - Description des composants
+   - Définition du modèle de données
+   - Définition des interfaces
+   - Conception détaillée
+L'exploitation de cette chaîne de conception doit permettre d'obtenir une description détaillée de l'état souhaité du système.<br>
+Cet état cible doit être suffisamment précis pour servir de référence au développement et aux tests. 
+L'évolution du produit déclenche un nouveau cycle de conception : analyse du besoin, définition du nouvel état cible, implémentation et validation par les tests.
+
 ## Technologies
 
 - Frontend : Angular (application standalone)
@@ -13,7 +36,7 @@ Application de création et de gestion de devis de voyage.
 Pour tester l'application en local :
 - démarrer MariaDB avec `docker compose up -d`,
 - démarrer l’API avec `cd backend && mvn spring-boot:run`,
-- dans un autre terminal, démarrer Angular avec `cd frontend && npm start`.
+- dans un autre terminal, démarrer Angular avec `cd frontend && npm start`.<br>
 L’interface est alors disponible sur `http://localhost:4200`.
 
 ## Authentification
