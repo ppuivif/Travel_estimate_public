@@ -20,9 +20,9 @@ Cette chaîne de conception comprend plusieurs étapes :
    - Description des composants
    - Définition du modèle de données
    - Définition des interfaces
-   - Conception détaillée
+   - Conception détaillée<br>
 L'exploitation de cette chaîne de conception doit permettre d'obtenir une description détaillée de l'état souhaité du système.<br>
-Cet état cible doit être suffisamment précis pour servir de référence au développement et aux tests. 
+Cet état cible doit être suffisamment précis pour servir de référence au développement et aux tests.<br>
 L'évolution du produit déclenche un nouveau cycle de conception : analyse du besoin, définition du nouvel état cible, implémentation et validation par les tests.
 
 ## Technologies
@@ -38,6 +38,8 @@ Pour tester l'application en local :
 - démarrer l’API avec `cd backend && mvn spring-boot:run`,
 - dans un autre terminal, démarrer Angular avec `cd frontend && npm start`.<br>
 L’interface est alors disponible sur `http://localhost:4200`.
+<br>
+L'application a également été déployée dans un environnement cloud AZURE à des fins de test et de démonstration. Elle n'est pas disponible en permanence.
 
 ## Authentification
 
